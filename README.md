@@ -4,6 +4,15 @@ A collection of my personal configuration files.
 
 ## Contents
 
+### Git (`.gitconfig`)
+
+| Setting | Value |
+|---|---|
+| **Editor** | vim |
+| **Pull** | rebase |
+| **Fetch** | prune branches, tags, and all remotes |
+| **Aliases** | `lg` — pretty graph log |
+
 ### Neovim (`nvim/`)
 
 Neovim configuration built with [lazy.nvim](https://github.com/folke/lazy.nvim).
@@ -26,6 +35,9 @@ Clone this repo and symlink the configs to your config directory:
 
 ```sh
 git clone https://github.com/<your-username>/dotfiles.git ~/dotfiles
+
+# Git
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Neovim
 ln -s ~/dotfiles/nvim ~/.config/nvim
