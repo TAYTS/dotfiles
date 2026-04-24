@@ -17,7 +17,7 @@ return {
         markdown = { "prettier" },
         lua = { "stylua" },
         rust = { "rustfmt" },
-        go = { "gofmt", "goimports" },
+        go = { "goimports" },
       },
       format_on_save = {
         lsp_fallback = true,
